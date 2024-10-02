@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!-- fontawesome links -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
+
+    <!-- stylesheet links -->
+    <link rel="stylesheet" href="./css/style.css" >
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logoWrp">
+        <a href="./" class="logo_black poppins-semibold">Standing Desks</a>
+      </div>
+      <div class="page_title_wrp">
+        <a href="./" class="page_title_black poppins-medium">HOME</a>
+        <a href="./risingDesk.html" class="page_title_black poppins-medium"
+          >RISING DESKS</a
+        >
+        <a href="./contactUs.html" class="page_title_black poppins-medium"
+          >CONTACT US</a
+        >
+        <a href="./healthBenefits.html" class="page_title_black poppins-medium"
+          >HEALTH BENEFITS</a
+        >
+        <a href="./basket.html" class="page_title_black poppins-medium"
+          >BASKET</a
+        >
+        <a
+          href="./basket.html"
+          class="page_title_black dropdown_hover poppins-medium"
+          >ACCOUNT
+        </a>
+        <div class="dropdown_ctn">
+          <a href="./login.html" class="dropdown_text poppins-medium">Login</a>
+          <a
+            href="./signup.html"
+            class="dropdown_text signup_dropdown_active poppins-medium"
+            >Register</a
+          >
+        </div>
+      </div>
+      <input type="checkbox" id="check" >
+      <label for="check" class="check_btn"
+        ><i class="fas fa-bars check_black"></i
+      ></label>
+      <div class="menu_slider">
+        <a href="./" class="page_title_fixed poppins-medium">HOME</a>
+        <a href="./risingDesk.html" class="page_title_fixed poppins-medium"
+          >RISING DESKS</a
+        >
+        <a href="./contactUs.html" class="page_title_fixed poppins-medium"
+          >CONTACT US</a
+        >
+        <a href="./healthBenefits.html" class="page_title_fixed poppins-medium"
+          >HEALTH BENEFITS</a
+        >
+        <a href="./basket.html" class="page_title_fixed poppins-medium"
+          >BASKET</a
+        >
+        <a href="./login.html" class="page_title_fixed poppins-medium">LOGIN</a>
+        <a
+          href="./signup.html"
+          class="page_title_fixed signup_dropdown_active poppins-medium"
+          >SIGNUP</a
+        >
+      </div>
+    </nav>
+
+    <div class="authentication_ctn">
+      <div class="authentication_wrp">
+        <div class="authentication_title poppins-semibold">Sign Up</div>
+        <div class="authentication_form_wrp">
+          <div class="authentication_form_group">
+            <label
+              class="authentication_form_title poppins-medium"
+              for="username"
+              >Username</label
+            >
+            <input
+              type="text"
+              id="username"
+              name="username"
+              class="authentication_form poppins-regular"
+              placeholder="Enter Username"
+              required
+            >
+          </div>
+          <div class="authentication_form_group">
+            <label class="authentication_form_title poppins-medium" for="email"
+              >Email</label
+            >
+            <input
+              type="text"
+              id="email"
+              name="email"
+              class="authentication_form poppins-regular"
+              placeholder="Enter Username"
+              required
+            >
+          </div>
+          <div class="authentication_form_group">
+            <label
+              class="authentication_form_title poppins-medium"
+              for="password"
+              >Password</label
+            >
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="authentication_form poppins-regular"
+              placeholder="Enter Password"
+              required
+            >
+          </div>
+          <button class="authentication_form_submit authentication_form_submit_text poppins-medium">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

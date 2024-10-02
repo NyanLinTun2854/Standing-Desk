@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!-- fontawesome links -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
+
+    <!-- stylesheet links -->
+    <link rel="stylesheet" href="./css/style.css" >
+    <title>Health Benetfits</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logoWrp">
+        <a href="./" class="logo_black poppins-semibold">Standing Desks</a>
+      </div>
+      <div class="page_title_wrp">
+        <a href="./index.html" class="page_title_black poppins-medium">HOME</a>
+        <a href="./risingDesk.html" class="page_title_black poppins-medium"
+          >RISING DESKS</a
+        >
+        <a href="./contactUs.html" class="page_title_black poppins-medium"
+          >CONTACT US</a
+        >
+        <a
+          href="./healthBenefits.html"
+          class="page_title_black benefit_active_title poppins-medium"
+          >HEALTH BENEFITS</a
+        >
+        <a href="./basket.html" class="page_title_black poppins-medium"
+          >BASKET</a
+        >
+        <a
+          href="./basket.html"
+          class="page_title_black dropdown_hover poppins-medium"
+          >ACCOUNT
+        </a>
+        <div class="dropdown_ctn">
+          <a href="./login.html" class="dropdown_text poppins-medium">Login</a>
+          <a href="./signup.html" class="dropdown_text poppins-medium"
+            >Register</a
+          >
+        </div>
+      </div>
+      <input type="checkbox" id="check" >
+      <label for="check" class="check_btn"
+        ><i class="fas fa-bars check_black"></i
+      ></label>
+      <div class="menu_slider">
+        <a href="./" class="page_title_fixed poppins-medium">HOME</a>
+        <a href="./risingDesk.html" class="page_title_fixed poppins-medium"
+          >RISING DESKS</a
+        >
+        <a href="./contactUs.html" class="page_title_fixed poppins-medium"
+          >CONTACT US</a
+        >
+        <a
+          href="./healthBenefits.html"
+          class="page_title_fixed benefit_active_title poppins-medium"
+          >HEALTH BENEFITS</a
+        >
+        <a href="./basket.html" class="page_title_fixed poppins-medium"
+          >BASKET</a
+        >
+        <a href="./login.html" class="page_title_fixed poppins-medium">LOGIN</a>
+        <a href="./signup.html" class="page_title_fixed poppins-medium"
+          >SIGNUP</a
+        >
+      </div>
+    </nav>
+
+    <!-- Health Benefits Ctn -->
+    <!-- <div class="health_ctn">
+      <div class="health_wrp">
+        <div class="health_img_ctn">
+          <img
+            src="./images/benefitStandingDesk.jpg"
+            alt="Health Benefit Image"
+            class="health_img"
+          />
+        </div>
+        <div class="health_desc_wrp">
+          <div class="health_desc_card">
+            <p class="health_desc_card_title poppins-semibold">
+              Stand Tall & Improve Posture:
+            </p>
+            <p class="health_desc_card_text poppins-regular">
+              Prolonged sitting often leads to poor posture, encouraging
+              slouching and rounding of the shoulders. A standing desk
+              counteracts this by promoting a more upright position, allowing
+              you to stand tall and maintain proper spinal alignment. With
+              regular use, standing desks help strengthen core and back muscles,
+              reducing the risk of back and neck pain. Over time, standing more
+              at your desk can enhance body alignment and reduce daily tension.
+            </p>
+          </div>
+          <div class="health_desc_card">
+            <p class="health_desc_card_title poppins-semibold">
+              Lose Calories & Prevent Obesity:
+            </p>
+            <p class="health_desc_card_text poppins-regular">
+              Sitting for long hours can slow your metabolism and contribute to
+              weight gain. By contrast, standing increases calorie burn, even
+              with low activity levels. While standing alone isn’t a vigorous
+              workout, it engages more muscles and encourages subtle movements,
+              like shifting or stretching, preventing sedentary habits that lead
+              to obesity. Incorporating a standing desk into your routine
+              supports weight management and lowers the risk of obesity-related
+              conditions like cardiovascular disease and type 2 diabetes.
+            </p>
+          </div>
+          <div class="health_desc_card">
+            <p class="health_desc_card_title poppins-semibold">
+              Stay Energetic 9-to-5:
+            </p>
+            <p class="health_desc_card_text poppins-regular">
+              Sitting for extended periods leads to fatigue and lower energy
+              levels. Standing desks help combat this by promoting movement,
+              improving circulation, and keeping you active throughout the day.
+              Alternating between sitting and standing helps maintain physical
+              activity, reducing sluggishness and keeping you more energized and
+              alert from morning to evening.
+            </p>
+          </div>
+          <div class="health_desc_card">
+            <p class="health_desc_card_title poppins-semibold">
+              Stress Less & Feel Good:
+            </p>
+            <p class="health_desc_card_text poppins-regular">
+              Sitting all day can cause physical tension, contributing to stress
+              and discomfort. Standing desks help alleviate this by encouraging
+              more movement, which releases endorphins that boost your mood and
+              reduce feelings of stress. By standing more often, you’ll feel
+              better both mentally and physically, improving your overall sense
+              of well-being.
+            </p>
+          </div>
+
+          <div class="health_desc_card">
+            <p class="health_desc_card_title poppins-semibold">
+              Focus Better & Reduce Absenteeism:
+            </p>
+            <p class="health_desc_card_text poppins-regular">
+              Standing while working keeps your body more engaged, which can
+              improve mental focus and reduce distractions. The increased
+              physical activity helps combat the lethargy that comes from
+              prolonged sitting. Standing desks also help reduce health-related
+              absences, as workers experience fewer musculoskeletal issues and
+              stay more engaged and productive.
+            </p>
+          </div>
+          <div class="health_desc_card">
+            <p class="health_desc_card_title poppins-semibold">
+              Get a Productivity Boost:
+            </p>
+            <p class="health_desc_card_text poppins-regular">
+              When standing, your body is more active, which helps you stay
+              alert and focused. The increased energy leads to greater
+              productivity, as standing prevents the mental and physical
+              sluggishness caused by extended periods of sitting. This improved
+              focus and energy means you can complete more tasks efficiently,
+              boosting your overall work performance.
+            </p>
+          </div>
+
+          <div class="health_desc_card">
+            <p class="health_desc_card_title poppins-semibold">
+              Say Goodbye to Diseases:
+            </p>
+            <p class="health_desc_card_text poppins-regular">
+              Long hours of sitting are linked to several chronic conditions,
+              such as heart disease, diabetes, and certain cancers. Standing
+              more often throughout the day can help mitigate these risks by
+              promoting a more active lifestyle. By using a standing desk
+              regularly, you reduce your likelihood of developing diseases
+              related to sedentary behavior.
+            </p>
+          </div>
+          <div class="health_desc_card">
+            <p class="health_desc_card_title poppins-semibold">
+              Stay Healthy & Live Longer:
+            </p>
+            <p class="health_desc_card_text poppins-regular">
+              Reducing the time spent sitting each day can lead to better
+              overall health, as prolonged sitting is associated with a number
+              of life-shortening conditions. Standing desks help reduce the risk
+              of these health issues, leading to a longer, healthier life. By
+              incorporating more movement into your workday, you improve both
+              your physical and mental health.
+            </p>
+          </div>
+          <div class="health_desc_card">
+            <p class="health_desc_card_title poppins-semibold">
+              Create a Workplace Wellness Culture:
+            </p>
+            <p class="health_desc_card_text poppins-regular">
+              Implementing standing desks in the workplace shows a commitment to
+              employee wellness and encourages healthier habits. A standing desk
+              not only benefits individual health but also fosters a culture of
+              wellness, where workers are encouraged to prioritize their
+              well-being. This leads to a more positive, dynamic work
+              environment where employees feel more valued.
+            </p>
+          </div>
+          <div class="health_desc_card">
+            <p class="health_desc_card_title poppins-semibold">
+              Move More & Collaborate Better:
+            </p>
+            <p class="health_desc_card_text poppins-regular">
+              Standing encourages more natural movement throughout the day,
+              making it easier for employees to interact and collaborate.
+              Standing desks create a more open and dynamic workspace, allowing
+              people to move around and engage with one another more easily.
+              This can lead to better communication, improved teamwork, and
+              increased productivity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="health_main_img_wrp">
+      <div class="health_main_img_absolute"></div>
+
+      <div class="health_main_img_text poppins-semibold">
+        Benefits of Standing Desk
+      </div>
+    </div>
+    <div class="health_ctn">
+      <div class="health_wrp">
+        <div class="health_card">
+          <div class="health_card_img_wrp">
+            <img
+              src="./images/Stay-Healthy-&-Live-Longer-.png"
+              alt="Benefit Card Image"
+              class="health_card_img"
+            >
+          </div>
+          <div class="health_card_desc">
+            <div class="health_card_title poppins-semibold">
+              Stay Healthy & Live Longer
+            </div>
+            <div class="health_card_text poppins-regular">
+              A standing desk encourages regular movement, reducing the risks of
+              heart disease, diabetes, and other issues linked to prolonged
+              sitting. By promoting an active work routine, it helps you stay
+              healthy and supports a longer, more vibrant life.
+            </div>
+          </div>
+        </div>
+        <div class="health_card">
+          <div class="health_card_img_wrp">
+            <img
+              src="./images/Say-Goodbye-to-Diseases.png"
+              alt="Benefit Card Image"
+              class="health_card_img"
+            >
+          </div>
+          <div class="health_card_desc">
+            <div class="health_card_title poppins-semibold">
+              Say Goodbye to Diseases
+            </div>
+            <div class="health_card_text poppins-regular">
+              A standing desk reduces the risks of diseases linked to a
+              sedentary lifestyle, such as heart disease, diabetes, and certain
+              cancers, by encouraging more movement throughout the day.
+            </div>
+          </div>
+        </div>
+        <div class="health_card">
+          <div class="health_card_img_wrp">
+            <iframe
+              class="health_card_iframe"
+              src="https://www.youtube.com/embed/BvPpaI7SJGI"
+              title="My 2021 Cozy Desk Setup | Standing Desk, Desk Organization, Cable Management, ITX PC, Decor &amp; More!"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="health_card_desc">
+            <div class="health_card_title poppins-semibold">
+              Lose Calories & Prevent Obesity
+            </div>
+            <div class="health_card_text poppins-regular">
+              A standing desk helps you burn more calories by encouraging
+              movement and reducing the time spent sitting. This can aid in
+              preventing obesity by promoting a more active lifestyle, which
+              helps regulate weight and improve overall health.
+            </div>
+          </div>
+        </div>
+        <div class="health_card">
+          <div class="health_card_img_wrp">
+            <img
+              src="./images/Stress-Less-&-Feel-Good.png"
+              alt="Benefit Card Image"
+              class="health_card_img"
+            >
+          </div>
+          <div class="health_card_desc">
+            <div class="health_card_title poppins-semibold">
+              Stress Less & Feel Good
+            </div>
+            <div class="health_card_text poppins-regular">
+              A standing desk can reduce stress by promoting better posture and
+              movement, which enhances circulation and reduces muscle tension.
+              Standing while working also boosts mood and energy levels, helping
+              you feel more relaxed and focused throughout the day.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer_wrp">
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">LEARN MORE</p>
+          <div class="footer_desc_wrp">
+            <a href="#" class="footer_desc poppins-regular">About Us</a>
+            <a href="#" class="footer_desc poppins-regular">Contact Us</a>
+            <a href="#" class="footer_desc poppins-regular">Careers</a>
+            <a href="#" class="footer_desc poppins-regular">Blog</a>
+            <a href="#" class="footer_desc poppins-regular">Sponorship</a>
+            <a href="#" class="footer_desc poppins-regular"
+              >Customer's Review</a
+            >
+          </div>
+        </div>
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">POLICIES</p>
+          <div class="footer_desc_wrp">
+            <a href="#" class="footer_desc poppins-regular">Warranty</a>
+            <a href="#" class="footer_desc poppins-regular"
+              >Delivery & Assembly</a
+            >
+            <a href="#" class="footer_desc poppins-regular"
+              >Returns & Refund policy</a
+            >
+            <a href="#" class="footer_desc poppins-regular">Instalment plans</a>
+            <a href="#" class="footer_desc poppins-regular">Privacy Policy</a>
+            <a href="#" class="footer_desc poppins-regular">Terms of Service</a>
+          </div>
+        </div>
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">ABOUT STANDDESK</p>
+          <p class="footer_desc poppins-regular">
+            StandDesk is the smartest way to bring the benefits of standing into
+            your home, office or business. We stand behind our sleek and durable
+            sit-stand desks to bring you premium quality workspace solutions
+            without the premium price.
+          </p>
+        </div>
+      </div>
+      <div class="cw_wrp"></div>
+    </div>
+  </body>
+</html>

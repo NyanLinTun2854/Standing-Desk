@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!-- fontawesome links -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
+
+    <!-- stylesheet links -->
+    <link rel="stylesheet" href="./css/style.css" >
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logoWrp">
+        <a href="./" class="logo_black poppins-semibold">Standing Desks</a>
+      </div>
+      <div class="page_title_wrp">
+        <a href="./index.html" class="page_title_black poppins-medium">HOME</a>
+        <a href="./risingDesk.html" class="page_title_black poppins-medium"
+          >RISING DESKS</a
+        >
+        <a
+          href="./contactUs.html"
+          class="page_title_black contact_active_title poppins-medium"
+          >CONTACT US</a
+        >
+        <a href="./healthBenefits.html" class="page_title_black poppins-medium"
+          >HEALTH BENEFITS</a
+        >
+        <a href="./basket.html" class="page_title_black poppins-medium"
+          >BASKET</a
+        >
+        <a
+          href="./basket.html"
+          class="page_title_black dropdown_hover poppins-medium"
+          >ACCOUNT
+        </a>
+        <div class="dropdown_ctn">
+          <a href="./login.html" class="dropdown_text poppins-medium">Login</a>
+          <a href="./signup.html" class="dropdown_text poppins-medium"
+            >Register</a
+          >
+        </div>
+      </div>
+      <input type="checkbox" id="check" >
+      <label for="check" class="check_btn"
+        ><i class="fas fa-bars check_black"></i
+      ></label>
+      <div class="menu_slider">
+        <a href="./" class="page_title_fixed poppins-medium">HOME</a>
+        <a href="./risingDesk.html" class="page_title_fixed poppins-medium"
+          >RISING DESKS</a
+        >
+        <a
+          href="./contactUs.html"
+          class="page_title_fixed contact_active_title poppins-medium"
+          >CONTACT US</a
+        >
+        <a href="./healthBenefits.html" class="page_title_fixed poppins-medium"
+          >HEALTH BENEFITS</a
+        >
+        <a href="./basket.html" class="page_title_fixed poppins-medium"
+          >BASKET</a
+        >
+        <a href="./login.html" class="page_title_fixed poppins-medium">LOGIN</a>
+        <a href="./signup.html" class="page_title_fixed poppins-medium"
+          >SIGNUP</a
+        >
+      </div>
+    </nav>
+
+    <div class="contact_us_main_ctn">
+      <div class="contact_us_main_wrp">
+        <div class="contact_us_main_map_wrp">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15271.613392692068!2d96.09969875!3d16.88067505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1725754830394!5m2!1sen!2smm"
+            class="map_wrp"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="contact_us_main_desc_wrp">
+          <h4 class="contact_us_main_title poppins-semibold">
+            Contact With Us
+          </h4>
+          <p class="contact_us_main_desc poppins-regular">
+            If you have any questions please fell free to contact with us.
+          </p>
+          <div class="contact_us_form_ctn">
+            <div class="contact_us_form_group">
+              <input
+                type="text"
+                class="contact_us_form poppins-regular"
+                placeholder="Name"
+              >
+            </div>
+            <div class="contact_us_form_group">
+              <input
+                type="text"
+                class="contact_us_form poppins-regular"
+                placeholder="Email"
+              >
+            </div>
+            <div class="contact_us_form_group">
+              <input
+                type="text"
+                class="contact_us_form poppins-regular"
+                placeholder="Phone"
+              >
+            </div>
+            <div class="contact_us_form_group">
+              <input
+                type="text"
+                class="contact_us_form poppins-regular"
+                placeholder="Subject"
+              >
+            </div>
+            <div class="contact_us_text_area_group">
+              <input
+                type="text"
+                class="contact_us_text_area poppins-regular"
+                placeholder="Subject"
+              >
+            </div>
+            <div class="contact_us_form_btn_wrp">
+              <button class="contact_us_form_submit contact_us_form_submit_text poppins-medium">
+                Send
+              </button>
+              <label for="2" class="checkbox-inline poppins-regular">
+                <input type="checkbox" id="2" name="news" >
+                Do you want to subscribe our Newsletter ?
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact_us_card_wrp">
+        <div class="contact_us_card">
+          <i class="fa-solid fa-phone contact_us_phone_icon"></i>
+          <div class="contact_us_card_desc_wrp">
+            <p class="contact_us_card_title poppins-semibold">+959 955158471</p>
+            <p class="contact_us_card_desc poppins-regular">
+              nyanlintun28504@gmail.com
+            </p>
+          </div>
+        </div>
+        <div class="contact_us_card">
+          <i class="fa-solid fa-location-dot contact_us_phone_icon"></i>
+          <div class="contact_us_card_desc_wrp">
+            <p class="contact_us_card_title poppins-semibold">
+              No 64/63 Street
+            </p>
+            <p class="contact_us_card_desc poppins-regular">Insein Yangon</p>
+          </div>
+        </div>
+        <div class="contact_us_card">
+          <i class="fa-solid fa-clock contact_us_phone_icon"></i>
+          <div class="contact_us_card_desc_wrp">
+            <p class="contact_us_card_title poppins-semibold">
+              Mon - Sat: 8am - 5pm
+            </p>
+            <p class="contact_us_card_desc poppins-regular">Sunday Closed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer_wrp">
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">LEARN MORE</p>
+          <div class="footer_desc_wrp">
+            <a href="#" class="footer_desc poppins-regular">About Us</a>
+            <a href="#" class="footer_desc poppins-regular">Contact Us</a>
+            <a href="#" class="footer_desc poppins-regular">Careers</a>
+            <a href="#" class="footer_desc poppins-regular">Blog</a>
+            <a href="#" class="footer_desc poppins-regular">Sponorship</a>
+            <a href="#" class="footer_desc poppins-regular"
+              >Customer's Review</a
+            >
+          </div>
+        </div>
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">POLICIES</p>
+          <div class="footer_desc_wrp">
+            <a href="#" class="footer_desc poppins-regular">Warranty</a>
+            <a href="#" class="footer_desc poppins-regular"
+              >Delivery & Assembly</a
+            >
+            <a href="#" class="footer_desc poppins-regular"
+              >Returns & Refund policy</a
+            >
+            <a href="#" class="footer_desc poppins-regular">Instalment plans</a>
+            <a href="#" class="footer_desc poppins-regular">Privacy Policy</a>
+            <a href="#" class="footer_desc poppins-regular">Terms of Service</a>
+          </div>
+        </div>
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">ABOUT STANDDESK</p>
+          <p class="footer_desc poppins-regular">
+            StandDesk is the smartest way to bring the benefits of standing into
+            your home, office or business. We stand behind our sleek and durable
+            sit-stand desks to bring you premium quality workspace solutions
+            without the premium price.
+          </p>
+        </div>
+      </div>
+      <div class="cw_wrp"></div>
+    </div>
+  </body>
+</html>

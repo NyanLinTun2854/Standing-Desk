@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!-- fontawesome links -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
+
+    <!-- stylesheet links -->
+    <link rel="stylesheet" href="./css/style.css" >
+    <title>Standing Desk</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logoWrp">
+        <a href="./" class="logo_black poppins-semibold">Standing Desks</a>
+      </div>
+      <div class="page_title_wrp">
+        <a
+          href="./index.html"
+          class="page_title_black home_active_title poppins-medium"
+          >HOME</a
+        >
+        <a href="./risingDesk.html" class="page_title_black poppins-medium"
+          >RISING DESKS</a
+        >
+        <a href="./contactUs.html" class="page_title_black poppins-medium"
+          >CONTACT US</a
+        >
+        <a href="./healthBenefits.html" class="page_title_black poppins-medium"
+          >HEALTH BENEFITS</a
+        >
+        <a href="./basket.html" class="page_title_black poppins-medium"
+          >BASKET</a
+        >
+        <a
+          href="./basket.html"
+          class="page_title_black dropdown_hover poppins-medium"
+          >ACCOUNT
+        </a>
+        <div class="dropdown_ctn">
+          <a href="./login.html" class="dropdown_text poppins-medium">Login</a>
+          <a href="./signup.html" class="dropdown_text poppins-medium"
+            >Register</a
+          >
+        </div>
+      </div>
+      <input type="checkbox" id="check" >
+      <label for="check" class="check_btn"
+        ><i class="fas fa-bars check_black"></i
+      ></label>
+      <div class="menu_slider">
+        <a href="./" class="page_title_fixed home_active_title poppins-medium"
+          >HOME</a
+        >
+        <a href="./risingDesk.html" class="page_title_fixed poppins-medium"
+          >RISING DESKS</a
+        >
+        <a href="./contactUs.html" class="page_title_fixed poppins-medium"
+          >CONTACT US</a
+        >
+        <a href="./healthBenefits.html" class="page_title_fixed poppins-medium"
+          >HEALTH BENEFITS</a
+        >
+        <a href="./basket.html" class="page_title_fixed poppins-medium"
+          >BASKET</a
+        >
+        <a href="./login.html" class="page_title_fixed poppins-medium">LOGIN</a>
+        <a href="./signup.html" class="page_title_fixed poppins-medium"
+          >SIGNUP</a
+        >
+      </div>
+    </nav>
+
+    <!-- Popup Modal-->
+    <input type="checkbox" id="modal_check" >
+    <div class="modal_overlay">
+      <div class="modal_container">
+        <label for="modal_check" class="modal_cancel_btn">
+          <i class="fa-solid fa-xmark modal_cancel_icon"></i>
+        </label>
+        <div class="modal_img_ctn">
+          <img src="./images/modalImg.webp" alt="modal main image" class="modal_img" >
+        </div>
+        <div class="modal_desc_ctn">
+          <div class="modal_desc_title poppins-semibold">
+            Welcome to our shop
+          </div>
+          <div class="modal_desc_text poppins-regular">
+            Boost your energy and productivity with our ergonomic standing
+            desks—designed for comfort and a healthier workday.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Absolute Mobile Slider -->
+
+    <!-- Landing -->
+    <section class="landing">
+      <div class="landingOneCtn">
+        <div class="landingAbsoluteCtn">
+          <img
+            src="https://standdesk.com/cdn/shop/files/hero-living-room-3000x1200.jpg"
+            alt="Landing Background Image"
+            class="landingBgImg"
+          >
+        </div>
+        <div class="landingOverlay"></div>
+        <div class="landingDescCtn">
+          <h2 class="landing_title poppins-bold">
+            Care Your Health With Our Standing Desks
+          </h2>
+          <p class="landing_desc poppins-regular">
+            Elevate your well-being with our standing desks, designed to promote
+            a healthier work environment.
+          </p>
+          <div class="btnWrp">
+            <a href="./risingDesk.html"  class="btn btn_text poppins-regular">
+               SHOP NOW
+            </a>
+          </div>
+        </div>
+        <div class="landing_promotion poppins-regular">15% OFF</div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <div class="categories">
+      <div class="categoriesCtn">
+        <p class="categories_title poppins-semibold">Top Categories</p>
+        <div class="categories_main_wrp">
+          <div class="categories_wrp">
+            <div class="categories_card">
+              <div class="categories_card_img_wrp">
+                <img
+                  src="./images/adjustable.jpg"
+                  alt="Category Card Image One"
+                  class="categories_card_img"
+                >
+              </div>
+              <p class="categories_card_title poppins-semibold">
+                Adjustable Electric Standing Desks
+              </p>
+              <p class="categories_card_desc poppins-regular">
+                Height-adjustable desks with electric controls.
+              </p>
+              <a href="./risingDesk.html" class="categories_card_btn"
+                ><p class="categories_card_btn_text poppins-regular">
+                  Shop Now
+                </p></a
+              >
+            </div>
+            <div class="categories_card">
+              <div class="categories_card_img_wrp">
+                <img src="./images/manual.jpg" alt="Category Card Image Two" class="categories_card_img" >
+              </div>
+              <p class="categories_card_title poppins-semibold">
+                Manual Adjustable Standing Desks
+              </p>
+              <p class="categories_card_desc poppins-regular">
+                Height-adjustable desks with manual controls
+              </p>
+              <a href="./risingDesk.html" class="categories_card_btn"
+                ><p class="categories_card_btn_text poppins-regular">
+                  Shop Now
+                </p></a
+              >
+            </div>
+            <div class="categories_card">
+              <div class="categories_card_img_wrp">
+                <img src="./images/converter.jpg" alt="Category Card Image Three" class="categories_card_img" >
+              </div>
+              <p class="categories_card_title poppins-semibold">
+                Converter Standing Desks
+              </p>
+              <p class="categories_card_desc poppins-regular">
+                Desk converters for transforming standard desks.
+              </p>
+              <a href="./risingDesk.html" class="categories_card_btn"
+                ><p class="categories_card_btn_text poppins-regular">
+                  Shop Now
+                </p></a
+              >
+            </div>
+            <div class="categories_card">
+              <div class="categories_card_img_wrp">
+                <img src="./images/fixed.png" alt="Category Card Image Four" class="categories_card_img" >
+              </div>
+              <p class="categories_card_title poppins-semibold">
+                Fixed Standing Desks
+              </p>
+              <p class="categories_card_desc poppins-regular">
+                Non-adjustable desks designed for consistent standing use.
+              </p>
+              <a href="./risingDesk.html" class="categories_card_btn"
+                ><p class="categories_card_btn_text poppins-regular">
+                  Shop Now
+                </p></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Description -->
+    <div class="productDesc">
+      <div class="whyUs">
+        <div class="whyUs_desc_wrp">
+          <p class="whyUs_desc_title poppins-semibold">Why Choose Us</p>
+          <p class="whyUs_desc_description poppins-regular">
+            we prioritize your health and well-being with our expertly designed
+            standing desks. Our desks are crafted with high-quality materials
+            and innovative features to ensure maximum comfort and durability.
+            Unlike other options, we offer customizable height settings, smooth
+            adjustment mechanisms,
+            <!-- and ergonomic designs that promote better
+            posture and reduce the risk of health issues associated with
+            prolonged sitting. -->
+          </p>
+        </div>
+        <div class="whyUs_img_wrp">
+          <img src="./images/whyUs.jpg" alt="WhyUs Description Image" class="whyUs_img" >
+        </div>
+      </div>
+      <div class="experience">
+        <div class="experience_img_wrp">
+          <img src="./images/newExperience.jpg" alt="Experience Description Image" class="experience_img" >
+        </div>
+        <div class="experience_desc_wrp">
+          <p class="experience_desc_title poppins-semibold">
+            Experience the Difference
+          </p>
+          <p class="experience_desc_description poppins-regular">
+            Discover how our standing desks can transform your daily work
+            routine. Designed with your well-being in mind, our desks offer more
+            than just ergonomic support—they promote a healthier, more dynamic
+            workspace. Experience the freedom to effortlessly switch between
+            sitting and standing, enhancing your posture and reducing
+            discomfort.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Offers -->
+    <div class="offers">
+      <div class="offer_card">
+        <i class="fa-solid fa-award fa-i-truck"></i>
+        <p class="offer_card_title poppins-bold">WARRANTY</p>
+        <p class="offer_card_desc poppins-regular">
+          You won't find a better warranty because we believe you won't find
+          better office products.
+        </p>
+      </div>
+      <div class="offer_card">
+        <i class="fa-solid fa-truck fa-i-truck"></i>
+        <p class="offer_card_title poppins-bold">FREE SHIPPING</p>
+        <p class="offer_card_desc poppins-regular">
+          All consumer standing desk orders ship free, all day, every day. Need
+          a large order? We offer freight shipping too.
+        </p>
+      </div>
+      <div class="offer_card">
+        <!-- <i class="fa-solid fa-truck fa-i-truck"></i> -->
+        <i class="fa-solid fa-building-flag fa-i-truck"></i>
+        <p class="offer_card_title poppins-bold">WESTERN ENGINEERING</p>
+        <p class="offer_card_desc poppins-regular">
+          Our products will withstand thousands of cycles without the worrying
+          wobble of our competitors.
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer_wrp">
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">LEARN MORE</p>
+          <div class="footer_desc_wrp">
+            <a href="#" class="footer_desc poppins-regular">About Us</a>
+            <a href="#" class="footer_desc poppins-regular">Contact Us</a>
+            <a href="#" class="footer_desc poppins-regular">Careers</a>
+            <a href="#" class="footer_desc poppins-regular">Blog</a>
+            <a href="#" class="footer_desc poppins-regular">Sponorship</a>
+            <a href="#" class="footer_desc poppins-regular"
+              >Customer's Review</a
+            >
+          </div>
+        </div>
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">POLICIES</p>
+          <div class="footer_desc_wrp">
+            <a href="#" class="footer_desc poppins-regular">Warranty</a>
+            <a href="#" class="footer_desc poppins-regular"
+              >Delivery & Assembly</a
+            >
+            <a href="#" class="footer_desc poppins-regular"
+              >Returns & Refund policy</a
+            >
+            <a href="#" class="footer_desc poppins-regular">Instalment plans</a>
+            <a href="#" class="footer_desc poppins-regular">Privacy Policy</a>
+            <a href="#" class="footer_desc poppins-regular">Terms of Service</a>
+          </div>
+        </div>
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">ABOUT STANDDESK</p>
+          <p class="footer_desc poppins-regular">
+            StandDesk is the smartest way to bring the benefits of standing into
+            your home, office or business. We stand behind our sleek and durable
+            sit-stand desks to bring you premium quality workspace solutions
+            without the premium price.
+          </p>
+        </div>
+      </div>
+      <div class="cw_wrp"></div>
+    </div>
+  </body>
+</html>

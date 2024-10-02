@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!-- fontawesome links -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
+
+    <!-- stylesheet links -->
+    <link rel="stylesheet" href="./css/style.css" >
+    <title>Basket</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logoWrp">
+        <a href="./" class="logo_black poppins-semibold">Standing Desks</a>
+      </div>
+      <div class="page_title_wrp">
+        <a href="./index.html" class="page_title_black poppins-medium">HOME</a>
+        <a href="./risingDesk.html" class="page_title_black poppins-medium"
+          >RISING DESKS</a
+        >
+        <a href="./contactUs.html" class="page_title_black poppins-medium"
+          >CONTACT US</a
+        >
+        <a href="./healthBenefits.html" class="page_title_black poppins-medium"
+          >HEALTH BENEFITS</a
+        >
+        <a
+          href="./basket.html"
+          class="page_title_black basket_active_title poppins-medium"
+          >BASKET</a
+        >
+        <a
+          href="./basket.html"
+          class="page_title_black dropdown_hover poppins-medium"
+          >ACCOUNT
+        </a>
+        <div class="dropdown_ctn">
+          <a href="./login.html" class="dropdown_text poppins-medium">Login</a>
+          <a href="./signup.html" class="dropdown_text poppins-medium"
+            >Register</a
+          >
+        </div>
+      </div>
+      <input type="checkbox" id="check" >
+      <label for="check" class="check_btn"
+        ><i class="fas fa-bars check_black"></i
+      ></label>
+      <div class="menu_slider">
+        <a href="./index.html" class="page_title_fixed poppins-medium">HOME</a>
+        <a href="./risingDesk.html" class="page_title_fixed poppins-medium"
+          >RISING DESKS</a
+        >
+        <a href="./contactUs.html" class="page_title_fixed poppins-medium"
+          >CONTACT US</a
+        >
+        <a href="./healthBenefits.html" class="page_title_fixed poppins-medium"
+          >HEALTH BENEFITS</a
+        >
+        <a
+          href="./basket.html"
+          class="page_title_fixed basket_active_title poppins-medium"
+          >BASKET</a
+        >
+        <a href="./login.html" class="page_title_fixed poppins-medium">LOGIN</a>
+        <a href="./signup.html" class="page_title_fixed poppins-medium"
+          >SIGNUP</a
+        >
+      </div>
+    </nav>
+
+    <!-- Shopping Cart -->
+    <div class="cart_ctn">
+      <div class="cart_wrp">
+        <!-- Individual Orders' Detail -->
+        <div class="cart_about_wrp">
+          <div class="total_cart">
+            <div class="quantity_total_cart">
+              <label for="2" class="checkbox-cart-wrp">
+                <input
+                  type="checkbox"
+                  id="2"
+                  name="news"
+                  class="checkbox-cart"
+                >
+              </label>
+              <p class="total_cart_quantity_text poppins-regular">
+                SELECT ALL (2 ITEM9(S))
+              </p>
+            </div>
+            <div class="actions_total_cart">
+              <i class="fa-solid fa-trash cart_delete_icon"></i>
+              <p class="actions_total_cart_text poppins-regular">DELETE</p>
+            </div>
+          </div>
+          <div class="cart_orders">
+            <div class="cart_order_card cart_order_card_bottom">
+              <div class="desc_cart_order_card">
+                <label for="cart_item_one" class="checkbox-cart-wrp">
+                  <input
+                    type="checkbox"
+                    id="cart_item_one"
+                    name="cart_item_one"
+                    class="checkbox-cart"
+                  >
+                </label>
+                <div class="cart_order_cart_img_wrp">
+                  <img
+                    src="./images/RDA1.png"
+                    alt="Cart Image"
+                    class="cart_order_cart_img"
+                  >
+                </div>
+                <div class="cart_order_cart_about_wrp">
+                  <p class="cart_order_cart_title poppins-regular">
+                    Electric P_001
+                  </p>
+                  <p class="cart_order_cart_desc poppins-regular">
+                    Cathy Doll, Color: #02 LIGHT BEIGE
+                  </p>
+                </div>
+              </div>
+              <div class="actions_cart_order_card_ctn">
+                <div class="actions_cart_order_card_wrp">
+                  <p class="cart_order_card_price poppins-semibold">Ks 6,600</p>
+                  <div class="actions_cart_order_card">
+                    <i class="fa-regular fa-heart cart_heart_icon"></i>
+                    <i class="fa-solid fa-trash cart_delete_icon"></i>
+                  </div>
+                </div>
+                <div class="quantity_control_wrp">
+                  <a class="quantity_icon_wrp">
+                    <i class="fa-solid fa-minus quantity_icon"></i>
+                  </a>
+                  <p class="quantity_text poppins-regular">1</p>
+                  <a class="quantity_icon_wrp">
+                    <i class="fa-solid fa-plus quantity_icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="cart_order_card">
+              <div class="desc_cart_order_card">
+                <label for="cart_item_two" class="checkbox-cart-wrp">
+                  <input
+                    type="checkbox"
+                    id="cart_item_two"
+                    name="cart_item_two"
+                    class="checkbox-cart"
+                  >
+                </label>
+                <div class="cart_order_cart_img_wrp">
+                  <img
+                    src="./images/manual.jpg"
+                    alt="Cart Image"
+                    class="cart_order_cart_img"
+                  >
+                </div>
+                <div class="cart_order_cart_about_wrp">
+                  <p class="cart_order_cart_title poppins-regular">
+                    Manual P_001
+                  </p>
+                  <p class="cart_order_cart_desc poppins-regular">
+                    Cathy Doll, Color: #02 LIGHT BEIGE
+                  </p>
+                </div>
+              </div>
+              <div class="actions_cart_order_card_ctn">
+                <div class="actions_cart_order_card_wrp">
+                  <p class="cart_order_card_price poppins-semibold">Ks 6,600</p>
+                  <div class="actions_cart_order_card">
+                    <i class="fa-regular fa-heart cart_heart_icon"></i>
+                    <i class="fa-solid fa-trash cart_delete_icon"></i>
+                  </div>
+                </div>
+                <div class="quantity_control_wrp">
+                  <a class="quantity_icon_wrp">
+                    <i class="fa-solid fa-minus quantity_icon"></i>
+                  </a>
+                  <p class="quantity_text poppins-regular">1</p>
+                  <a class="quantity_icon_wrp">
+                    <i class="fa-solid fa-plus quantity_icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart_delivery_wrp">
+          <div class="location_card_wrp">
+            <div class="location_card"></div>
+            <p class="location_card_title poppins-regular">Location</p>
+            <div class="location_card_desc_wrp">
+              <i
+                class="fa-solid fa-location-dot location_card_desc_wrp_icon"
+              ></i>
+              <p class="location_card_desc_wrp_desc poppins-regular">
+                Add Shipping Address
+              </p>
+            </div>
+          </div>
+          <div class="order_summary_card_wrp">
+            <div class="order_summary_card">
+              <div class="order_summary_title poppins-semibold">
+                Order Summary
+              </div>
+              <div class="order_summary_desc_ctn">
+                <div class="order_summary_desc_wrp">
+                  <p class="order_summary_desc_wrp_title poppins-regular">
+                    Subtotal (2 items)
+                  </p>
+                  <p class="order_summary_desc_wrp_price poppins-regular">
+                    Ks 13200
+                  </p>
+                </div>
+              </div>
+              <div class="voucher_wrp">
+                <div class="voucher">
+                  <input
+                    type="text"
+                    class="voucher_input poppins-regular"
+                    placeholder="Enter Voucher Code"
+                  >
+                  <a href="#" class="voucher_btn poppins-semibold">APPLY</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="total_order_wrp">
+            <div class="total_order_row_wrp">
+              <p class="total_order_text poppins-regular">Total</p>
+              <p class="total_order_price poppins-regular">Ks 13200</p>
+            </div>
+          </div>
+          <div class="checkout_btn_wrp">
+            <a class="checkout_btn poppins-regular">PROCEED TO CHECKOUT(2)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer_wrp">
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">LEARN MORE</p>
+          <div class="footer_desc_wrp">
+            <a href="#" class="footer_desc poppins-regular">About Us</a>
+            <a href="#" class="footer_desc poppins-regular">Contact Us</a>
+            <a href="#" class="footer_desc poppins-regular">Careers</a>
+            <a href="#" class="footer_desc poppins-regular">Blog</a>
+            <a href="#" class="footer_desc poppins-regular">Sponorship</a>
+            <a href="#" class="footer_desc poppins-regular"
+              >Customer's Review</a
+            >
+          </div>
+        </div>
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">POLICIES</p>
+          <div class="footer_desc_wrp">
+            <a href="#" class="footer_desc poppins-regular">Warranty</a>
+            <a href="#" class="footer_desc poppins-regular"
+              >Delivery & Assembly</a
+            >
+            <a href="#" class="footer_desc poppins-regular"
+              >Returns & Refund policy</a
+            >
+            <a href="#" class="footer_desc poppins-regular">Instalment plans</a>
+            <a href="#" class="footer_desc poppins-regular">Privacy Policy</a>
+            <a href="#" class="footer_desc poppins-regular">Terms of Service</a>
+          </div>
+        </div>
+        <div class="footer_col">
+          <p class="footer_title poppins-semibold">ABOUT STANDDESK</p>
+          <p class="footer_desc poppins-regular">
+            StandDesk is the smartest way to bring the benefits of standing into
+            your home, office or business. We stand behind our sleek and durable
+            sit-stand desks to bring you premium quality workspace solutions
+            without the premium price.
+          </p>
+        </div>
+      </div>
+      <div class="cw_wrp"></div>
+    </div>
+  </body>
+</html>
